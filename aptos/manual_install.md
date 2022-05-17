@@ -58,8 +58,8 @@ wget -qO generate_keys.sh https://raw.githubusercontent.com/kj89/testnet_manuals
 ### Option 2 - Recover your keys
 If you want to recover your keys please fill out identity and run script below
 ```
-echo "export KEY=<YOUR_KEY>" >> $HOME/.bash_profile
-echo "export PEER_ID=<YOUR_PEER_ID>" >> $HOME/.bash_profile
+echo "export KEY=<YOUR_KEY>" >> $HOME/.bashrc
+echo "export PEER_ID=<YOUR_PEER_ID>" >> $HOME/.bashrc
 ```
 
 ## Update configs
